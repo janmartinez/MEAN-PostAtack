@@ -1,7 +1,7 @@
 <mat-card>
   <mat-spinner *ngIf="isLoading"></mat-spinner>
   <form [formGroup]="form" (submit)="onSavePost()"  *ngIf="!isLoading">
-    <mat-form-field>
+    <mat-form-field class="mat-form-field-infix ng-tns-c98-3">
       <input
         matInput
         type="text"

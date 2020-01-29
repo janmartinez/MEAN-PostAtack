@@ -1,7 +1,17 @@
+.toolBar{
+  background-color: black;
+
+}
 ul{
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.logoutBt{
+  color: white;
+}
+.title{
+  color: #ff4081
 }
 a{
   text-decoration: none;
